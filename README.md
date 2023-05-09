@@ -16,11 +16,17 @@ This project is a music player application developed using React JS. It allows u
 
 ## Features
 ✨ Use React JS for a powerful and flexible UI development experience.
+
 ✨ Responsive application that adapts to smaller screens, with the player component serving as the main interface and a menu button to access a list of songs.
+
 ✨ Utilize GraphQL to efficiently load the list data.
+
 ✨ Ensure uninterrupted music playback even if the user visits another tab, such as the Favorites tab.
+
 ✨ Dynamically change the background gradient color based on the cover image of the currently playing song, as indicated in the design.
+
 ✨ Create a fluid and interactive interface with captivating animations and transitions, such as a loading animation for the song list and background color change animation.
+
 ✨ Provide essential functionality, including search capability, music control (play/pause/next/previous), tab navigation (e.g., switching from "For You" to "Top Tracks"), and controlling music playback via a seeker.
 
 ## Installation
