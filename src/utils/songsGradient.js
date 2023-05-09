@@ -1,0 +1,26 @@
+const songGradient = {
+  "61b6f14dc2f7cafd968c31f4": ["#348AC7", "#7474BF"],
+  "61b6f14dc2f7cafd968c31fc": ["#D39D38", "#4DA0B0"],
+  "61b6f14dc2f7cafd968c31f5": ["#A43931", "#1D4350"],
+  "61b6f14dc2f7cafd968c31f1": ["#4B79A1", "#283E51"],
+  "61b6f14dc2f7cafd968c3205": ["#808080", "#3fada8"],
+  "61b6f14dc2f7cafd968c3208": ["#94716B", "#B79891"],
+  "61b6f14dc2f7cafd968c3201": ["#757F9A", "#D7DDE8"],
+  "61b6f14dc2f7cafd968c31fd": ["#348AC7", "#7474BF"],
+  "61b6f14dc2f7cafd968c3206": ["#808080", "#3fada8"],
+  "61b6f14dc2f7cafd968c31fe": ["#514A9D", "#24C6DC"],
+  "61b6f14dc2f7cafd968c31f6": ["#A43931", "#1D4350"],
+  "61b6f14dc2f7cafd968c3202": ["#B5AC49", "#3CA55C"],
+  "61b6f14dc2f7cafd968c3209": ["#6D6027", "#D3CBB8"],
+  "61b6f14dc2f7cafd968c3207": ["#94716B", "#B79891"],
+  "61b6f14dc2f7cafd968c31fb": ["#348AC7", "#7474BF"],
+  "61b6f14dc2f7cafd968c3203": ["#B5AC49", "#3CA55C"],
+  "61b6f14dc2f7cafd968c31ff": ["#ef32d9", "#89fffd"],
+  "61b6f14dc2f7cafd968c31f7": ["#2BC0E4", "#EAECC6"],
+  "61b6f14dc2f7cafd968c31f3": ["#4B79A1", "#283E51"],
+  "61b6f14dc2f7cafd968c320a": ["#43cea2", "#185a9d"],
+  "61b6f14dc2f7cafd968c320d": ["#525252", "#3d72b4"],
+  "61b6f14dc2f7cafd968c3200": ["#808080", "#3fada8"],
+};
+
+export default songGradient;
