@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import SidePanelComponent from "../components/SidePanel";
 import { sideModalKey } from "../constant/modalKeys";
 import { setCurrentPlaylist } from "../slices/playlist";
+import { openModal } from "../slices/modals";
 
 const SidePanel = () => {
   const isOpen = !!useSelector(
@@ -15,12 +16,12 @@ const SidePanel = () => {
   const allPlaylists = useSelector(
     (store) => store.playlistReducer.playlist.allPlaylists
   );
-
   const dispatch = useDispatch();
 
   const onChangeSection = ({ sectionId, sectionType, event }) => {
     event.stopPropagation();
     dispatch(setCurrentPlaylist({ id: sectionId, title: sectionType }));
+    dispatch(openModal({ key: sideModalKey, value: !isOpen }));
   };
 
   return (
